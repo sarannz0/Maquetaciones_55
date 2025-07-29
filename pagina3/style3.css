@@ -12,13 +12,19 @@
     padding: 0;
 }
 
-.h1 {
-    font-size: 88px;
+.title-text {
+    font-size: 50px;
     height: 80px;
     color: #252525;
     font-weight: 674;
     margin-bottom: 20px;
     font-weight: bold;
+
+}
+
+.movimient {
+    display: flex;
+    
 
 }
 
@@ -40,8 +46,8 @@
 }
 
 .container-picture img {
-    width: 500px;
+    width: 1313px;
     max-width: 100%;
-    height: auto;
+    height: 732px;
     justify-content: center;
 }

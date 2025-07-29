@@ -1,95 +1,69 @@
-.container-text {
-    font-size: 64px;
-    font-style: normal;
-    text-align: left;
-    align-content: center;
-    background-color: white;
-    padding-left: 5rem;
-    padding-right: 25rem;
-    width: 50rem;
-    height: 25rem;
+body {
+
+    margin: 80px;
+    padding: 0;
+    max-width: 1440px;
+    max-height: 1272px;
+   
 }
 
-.h1 {
-    font-family: sans-serif;
-    font-weight: 444;
-    height: 231;
-    margin-bottom: 15rem;
-    font-size: 56px;
-}
-
-.body {
-    padding: 70px;
+.title-text {
+   font-size: 56px;
 }
 
 .text {
-    font-family: Arial, Helvetica, sans-serif;
-    margin-top: 1rem;
     color: rgb(37, 37, 37, 0.8);
     font-size: 26px;
-    font-weight: 386;
-    height: auto;
+    width: 500px;
 }
 
-button {
-    color: #FFFFFF;
+header {
+    width: 444px;
+    display: flex;
+    flex-direction: row;
+}
+.container-text {
+
+    width: 500px;
+}
+
+.button {
     background-color: #252525;
+    color: #FFFFFF;
+    height: 50px;
+    width: 150px;
+    border-radius: 10px;
     font-size: 18px;
-    border: 1px solid #252525;
-    font-weight: 700;
-    border-radius: 20px;
-    padding: 20px 60px;
-    margin-bottom: 3rem;
-    text-align: center;
+
+}
+
+.containers {
+
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+    width: 1316px;
+    height: 440px;
 }
 
 .container-left-right {
-    background-color: white;
     display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 30px;
-    max-width: 50%;
-    margin: 5rem auto;
-    padding: 100px;
+    gap: 50px;
     
-}
-
-.image-left {
-    max-width: 100%;
-    border-radius: 30px;
-    justify-content:right;
-    position: relative;
-    top:-700px;
-    margin-left: 25rem;
-    margin-top: 30px;
 }
 
 .image-right {
-    max-width: 100%;
-    border-radius: 30px;
-    justify-content:right;
-    position: relative;
-    top:-1000px;
-    margin-left: 70rem;
+    margin-top: 100px;
+    width: 408px;
+    height: 480px;
 }
 
-.numbers {
-    flex: auto;
-    display: flex;
-    justify-content: space-around;
-    position: relative;
-    top: -1000px;
+.image-left {
+    width: 408px;
+    height: 480px;
 }
 
-.container-down {
-    border-radius: 15px;
-    flex: auto;
-    display: flex;
-    gap: 40px;
-    justify-content: left;
-    margin-top: -1000px;
-    padding-left: 5rem;
-    padding-right: 5rem;
-    
+.containers img {
+    height: 379px;
+    width: 412px;
 }
