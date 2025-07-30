@@ -1,24 +1,32 @@
-.container-text {
-    width: 724px;
-    height: 997px;
-    margin-left: auto;
+.container {
+    width: 1440px;
+    height: 999px;
+    display: flex;
+        /* margin-left: auto; */
 }
 
 .hero-uno {
-    width: 500px;
-    height: 415px;
+    background-color: pink;
+    /* width: 500px;
+    height: 415px; */
+}
+.container-text {
+    margin-left: auto;
+    width: 500px;    
 }
 
 h1 {
-    width: 500px;
-    height: 153px;
+    /* width: 500px;
+    height: 153px; */
     font-size: 64px;
     color: #252525;
+    
+    height: 90px;
 }
 
 .hero-uno p {
-    width: 500px;
-    height: 144px;
+    /* width: 500px;
+    height: 144px; */
     font-size: 26px;
     color: rgb(37, 37, 37, 0.8);
 }
@@ -68,6 +76,4 @@ button {
 img {
     width: 716px;
     height: 932px;
-      display:block;               /* evita el “espacio” de elementos inline */
-  transform: translateY(-40px);
 }
