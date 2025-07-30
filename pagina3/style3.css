@@ -1,53 +1,52 @@
-.container-text {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 60px 40px;
-    background-color: white;
-}
-
 .body {
-    font-family: sans-serif;
-    margin: 0;
-    padding: 0;
+    width: 1440px;
+    height: 1204px;
 }
 
 .title-text {
-    font-size: 50px;
+    width: 674px;
     height: 80px;
+    font-size: 88px;
     color: #252525;
-    font-weight: 674;
-    margin-bottom: 20px;
-    font-weight: bold;
+    margin-bottom: 120px;
+    margin-left: 30px;
+}
 
+.container-text {
+    display: flex;
+    justify-content: space-around;
 }
 
 .movimient {
-    display: flex;
-    
+    background-color: pink;
+    width: 526px;
+    height: 174px;
+    gap: 16px;
 
 }
 
 .text {
-    font-size: 0.95rem;
-    line-height: 1.5;
-    margin-bottom: 20px;
-    color: #555;
+    width: 526px;
+    height: 108px;
+    font-size: 26px;
+    color: rgb(37, 37, 37, 0.8);
+
 }
 
-.button {
-    background-color: black;
-    color: white;
-    border: none;
-    padding: 10px 16px;
-    border-radius: 20px;
-    cursor: pointer;
-    font-size: 0.9rem;
+button {
+    width: 157px;
+    height: 50px;
+    background-color: #252525;
+    border-radius: 16px;
+    color: #FFFFFF;
+    font-size: 18px;
 }
 
-.container-picture img {
+img {
     width: 1313px;
-    max-width: 100%;
     height: 732px;
-    justify-content: center;
+    display: flex;
+    justify-content: centers;
+    margin-top: 400px;
+    margin-left: 30px;
 }

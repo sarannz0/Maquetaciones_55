@@ -1,0 +1,73 @@
+.container-text {
+    width: 724px;
+    height: 997px;
+    margin-left: auto;
+}
+
+.hero-uno {
+    width: 500px;
+    height: 415px;
+}
+
+h1 {
+    width: 500px;
+    height: 153px;
+    font-size: 64px;
+    color: #252525;
+}
+
+.hero-uno p {
+    width: 500px;
+    height: 144px;
+    font-size: 26px;
+    color: rgb(37, 37, 37, 0.8);
+}
+
+button {
+    width: 158px;
+    height: 54px;
+    background-color: #252525;
+    color: #FFFFFF;
+    border-radius: 16px;
+}
+
+.hero-dos {
+    width: 500px;
+    height: 334px;
+}
+
+.cont-one .number {
+    width: 500px;
+    height: 44px;
+    color: rgb(37, 37, 37, 0.8);
+    font-size: 32px;
+}
+
+.cont-one p {
+    width: 500px;
+    height: 99px;
+    color: rgb(37, 37, 37, 0.8);
+    font-size: 24px;
+}
+
+.cont-two .number {
+    width: 500px;
+    height: 44px;
+    color: rgb(37, 37, 37, 0.8);
+    font-size: 32px;
+}
+
+.cont-two p {
+    width: 500px;
+    height: 99px;
+    color: rgb(37, 37, 37, 0.8);
+    font-size: 24px;
+}
+
+
+img {
+    width: 716px;
+    height: 932px;
+      display:block;               /* evita el “espacio” de elementos inline */
+  transform: translateY(-40px);
+}
