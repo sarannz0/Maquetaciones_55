@@ -4,18 +4,18 @@ header {
 }
 
 h1 {
-    font-size: 88px;
+    font-size: 72px;
     color: #252525;
-    width: 531px;
-    height: 208px; 
+    width: 833px;
+    height: 176px; 
 }
 
 .containers {
     width: 1312px;
-    height: 549px;
+    height: 559px;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .container {
