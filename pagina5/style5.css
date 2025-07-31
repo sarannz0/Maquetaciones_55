@@ -1,0 +1,23 @@
+header {
+    width: 1440px;
+    height: 954px;
+}
+
+h1 {
+    font-size: 88px;
+    color: #252525;
+    width: 531px;
+    height: 208px;
+}
+
+.container {
+    width: 1312px;
+    height: 549px;
+    display: flex;
+    flex-direction: row;
+}
+.container-one {
+    width: 400px;
+    height: 549px;
+
+}
